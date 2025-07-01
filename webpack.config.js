@@ -28,11 +28,11 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: ['.js', '.jsx'],
   },
-  plugin: [
+  plugins: [
     new HtmlWebPackPlugin({
-      template: './public/index.html'
-    })
-  ] 
+      template: './public/index.html',
+    }),
+  ],
 };
